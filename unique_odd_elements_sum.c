@@ -16,7 +16,7 @@ int main()
                 arr[j]=-1;
             }
         }
-        if(arr[i]!=-1 && arr[i]%2==1)
+        if( arr[i]%2==1)
         {
             s=s+arr[i];
         }
