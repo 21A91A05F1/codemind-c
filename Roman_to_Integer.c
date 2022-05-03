@@ -2,13 +2,13 @@
 #include <string.h>
 int main()
 {
-   char r[30];
+   char rom[30];
    int a[30],i,k,len;
-   scanf("%s",r);
-   len=strlen(r);
+   scanf("%s",rom);
+   len=strlen(rom);
    for(i=0;i<len;i++)
    {
-       switch(r[i])
+       switch(rom[i])
        {
            case 'I':a[i]=1;
            break;
