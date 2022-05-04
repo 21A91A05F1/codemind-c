@@ -7,15 +7,14 @@ int main()
     {
         for(j=1;j<=n;j++)//1
         {
-            if(i<n)
-        {
-            if(j==i || j==1)
-            printf("*");
+            
+        
+            if(j==i || j==1 || j==n )
+            printf("* ");
             else
-             printf(" ");
-        }
-        else
-        printf("*");
+             printf("  ");
+        
+        
             
         }
         
