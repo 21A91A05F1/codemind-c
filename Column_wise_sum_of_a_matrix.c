@@ -15,15 +15,7 @@ int main()
     s1=0;
     for(i=0;i<r;i++)
 {
-   /* if(j==0)
-    {
-        s1=s1+arr[i][j];
-    }
-    else if (j==1)
-    s2=s2+arr[i][j];
-    else if(j==2)
-    s3=s3+arr[i][j];*/
-    
+   
     s1=s1+arr[i][j];
     
 }
