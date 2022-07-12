@@ -31,4 +31,3 @@ int main()
     }
     printf("%d",c1);
 }
-    
